@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doctor Vera SMS</string>
+    <string name="tab1_header">Архів</string>
+    <string name="tab2_header">Нова СМС</string>
+    <string name="tab3_header">Заготовки</string>
+    <!-->New SMS texts<-->
+    <string name="phone_number_label_text">Номер телефону:</string>
+    <string name="sms_text_label_text">Текст СМС:</string>
+    <string name="send_sms_button_text">Відіслати</string>
+    <string name="save_sms_button_text">Зберегти</string>
+    <string name="sent_notify">СМС Вислана</string>
+    <string name="saved_notify">СМС Збережена</string>
+    <!-->Settings<-->
+    <string name="settings_activity_name">Налаштування</string>
+    <string name="login_label_text">Логін</string>
+    <string name="password_label_text">Пароль</string>
+    <string name="alpha_name_label_text">Альфа Им\'я</string>
+    <string name="language_label_text">Мова</string>
+    <string name="save_settings_button_text">Зберегти</string>
+    <string name="cancel_button_text">Відмінити</string>
+    <string name="settings_saved_notice">Налаштування збережені</string>
+    <!-->Menu Items<-->
+    <string name="action_settings">Налаштування</string>
+    <string name="clear_all">Видалити все</string>
+    <string name="quit">Вихід</string>
+    <string name="delete_checked">Видалити обране</string>
+    <!-->Errors!<-->
+    <string name="field_empty_error">Поле обов\'язкове для заповнення!</string>
+    <string name="phone_number_format_error">Помилка телефонного номера!</string>
+    <string name="internet_connection_error">Помилка підключення до інтернету!</string>
+    <string name="login_password_error">Помилка авторизації!</string>
+    <string name="license_error">Ліцензія не активна, перевірте налаштування або зверніться до розробника!</string>
+    <!-->Delete SMS Dialog!<-->
+    <string name="delete_sms_header">Видалення смс!</string>
+    <string name="delete_sms_text">Ви насправді хочете видалити смс:</string>
+    <string name="delete_sms_text_end">штук</string>
+    <string name="delete_sms_yes">Так</string>
+    <string name="delete_sms_no">Ні</string>
+    
+        <!-- Google Marcet Licensing -->
+    <!-- License checking status messages -->
+    <string name="google_valid">Google Market Програма ліцензована</string>
+    <string name="google_not_valid">Google Market Програма не ліцензована</string>
+    <string name="drvera_valid">Doctor Vera License Програма ліцензована</string>
+    <string name="drvera_not_valid">Doctor Vera Програма не ліцензована</string>
+    <string name="application_error">Помилка программи: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Ліцензія не дійсна</string>
+    <string name="unlicensed_dialog_body">Програма не ліцензійна. Купіть її в Android Магазині.</string>
+    <string name="unlicensed_dialog_retry_body">Неможливо перевірити ліцензію. Перевірте з\'єднання з інтернетом</string>
+    <string name="buy_button">Купити</string>
+    <string name="retry_button">Повторити</string>
+    <string name="quit_button">Вихід</string>
+
+</resources>

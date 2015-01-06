@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/phone_number_label_text"
+        android:id="@+id/phoneNumberFieldLabel" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:ems="10"
+        android:id="@+id/phoneNumberField" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <TextView
+	        android:id="@+id/smsTextFieldLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sms_text_label_text"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	   	<TextView
+	   	    android:id="@+id/counter"
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="right|end"
+	   	    android:gravity="right|end"
+	   	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:id="@+id/smsTextField"
+        android:imeActionLabel="@string/send_sms_button_text"
+        android:gravity="top"
+        android:lines="3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/send_sms_button_text"
+            android:id="@+id/send_sms_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/save_sms_button_text"
+            android:id="@+id/save_sms_button" />
+    </LinearLayout>
+</LinearLayout>
